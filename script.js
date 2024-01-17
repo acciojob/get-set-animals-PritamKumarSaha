@@ -35,6 +35,16 @@ class Cat extends Animal {
 	}
 }
 
+let dog = new Dog("Pug");
+console.log(dog.species);
+dog.makeSound();
+dog.bark();
+
+let cat = new Cat("Cat");
+console.log(cat.species);
+cat.makeSound();
+cat.purr();
+
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
