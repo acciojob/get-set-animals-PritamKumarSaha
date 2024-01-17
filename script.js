@@ -35,12 +35,12 @@ class Cat extends Animal {
 	}
 }
 
-let dog = new Dog("Pug");
+let dog = new Dog("Golden Retriever");
 console.log(dog.species);
 dog.makeSound();
 dog.bark();
 
-let cat = new Cat("Cat");
+let cat = new Cat("Siamese");
 console.log(cat.species);
 cat.makeSound();
 cat.purr();
